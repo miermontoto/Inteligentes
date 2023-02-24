@@ -1,0 +1,22 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 3,4,5 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixCSV -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 3 -stddev-width 2 -sig-width 1 -count-width 0 -print-row-names -enum-col-names"
+Analysing:  Percent_incorrect
+Datasets:   4
+Resultsets: 3
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       2/14/23, 11:59 AM
+
+
+Dataset,[1],[2],'',[3],''
+pima_diabetes,26.53,27.14,' ',22.47,' '
+iris,5.29,5.10,' ',3.33,' '
+mushroom,1.44,0.00,*,0.00,*
+zoo,58.07,7.67,*,5.22,*
+'[v/ /*]','','',[0/2/2],'',[0/2/2]
+
+
+Key,
+[1],'rules.OneR \'-B 6\' -3459427003147861443'
+[2],'trees.J48 \'-C 0.25 -M 2\' -217733168393644444'
+[3],'functions.SMO \'-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K \\\"functions.supportVector.PolyKernel -E 1.0 -C 250007\\\" -calibrator \\\"functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4\\\"\' -6585883636378691736'
+
